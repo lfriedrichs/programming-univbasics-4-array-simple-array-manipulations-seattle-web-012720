@@ -26,6 +26,6 @@ def using_concat(arg1,arg2)
   arg1.concat(arg2)
 end
 
-def using_insert(Array,arg2)
-  arg1.concat(arg2)
+def using_insert(Array,new_element)
+  Array.insert(arg2)
 end
