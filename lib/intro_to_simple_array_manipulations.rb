@@ -17,3 +17,11 @@ end
 def using_shift(Array)
   Array.shift
 end
+
+def shift_with_args(Array)
+  Array.shift(2)
+end
+
+def using_shift(Array)
+  Array.shift
+end
